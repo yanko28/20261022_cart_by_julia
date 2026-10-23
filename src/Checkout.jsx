@@ -62,7 +62,7 @@ export default function Checkout() {
           <div className="checkout-consent">
             <input id="checkout-agreement" type="checkbox" name="agreement" defaultChecked required />
             <label htmlFor="checkout-agreement">
-              Нажимая КУПИТЬ, я соглашаюсь с Политикой конфиденциальности и <a href={site + '/info/warranty/'} target="_blank" rel="noreferrer">Офертой</a>
+              Нажимая КУПИТЬ, я соглашаюсь с Политикой конфиденциальности и Офертой
             </label>
           </div>
           <button className="checkout-buy" type="submit">КУПИТЬ</button>
