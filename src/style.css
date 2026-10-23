@@ -8,3 +8,4 @@
 .footer-menu nav .channels-title{margin-top:24px}
 .press>div>a{display:flex;align-items:center;justify-content:center}.press>div>a:nth-child(n+7) img{max-height:22px}
 @media(max-width:700px){.press>div>a:nth-child(n+7) img{max-height:18px}}
+.press>div{column-gap:24px}.press img,.press>div>a:nth-child(n+7) img{height:auto;max-height:none}
